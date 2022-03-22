@@ -1,7 +1,7 @@
 // start 21/11/2564
 //พัฒนาโดย อาจารย์โซฟีร์ หะยียูโซ๊ะ
 // พัฒนา ผ่าน โปรแกรม staclib;
-//11
+//111234567889
 <?php 
 	/*Get Data From POST Http Request*/
 	$datas = file_get_contents('php://input');
