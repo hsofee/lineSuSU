@@ -20,15 +20,9 @@
 	
 	$messages = [];
 	$messages['replyToken'] = $replyToken;
-	$messages['messages'][0] = getFormatTextMessage("หวัดดีคะ Miss นมแม่ยินดีให้บริการ1");
-	
-
-	// เชื่อมต่อกับ ฐานข้อมูล อย่างไร ตรงนี้ 
-	// ทดสอบ
-	// ทดสบการเชื่อมต่อ
-  // เว็บ webhood อย่างไร
-
-
+	$messages['messages'][0] = getFormatTextMessage("สวัสดีคะ  นี้เป็นระบบ chatbot ชื่อ MissSUSU ของคลินิกนมแม่ ศูนย์อนามัยที่ 12 ยะลา
+            หากมีข้อสงสัยเพิ่มเติมให้ ติดต่อที่คลินิกนมแม่เพื่อขอคำปรึกษาโดยตรงโทร 061-1988322 ในเวลาราชการ");
+		
 	$encodeJson = json_encode($messages);
 
 	$LINEDatas['url'] = "https://api.line.me/v2/bot/message/reply";
